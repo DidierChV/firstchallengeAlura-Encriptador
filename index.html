@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Encriptador</title>
+
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="index_style.css">
+
+    <link rel="text/javascript" href="logica.js">
+
+</head>
+
+<body>
+
+    <header class="logo">
+
+        <h1> <img src="imagenes/Logo.png"> </h1>
+
+    </header>
+
+    <main>
+
+        <section id="ingreso">
+            <textarea contenteditable id="usermjs" name="textarea" placeholder="Ingresa el texto para ecriptar aqui"></textarea>
+        </section>
+
+        <div id="salida">
+            <textarea readonly id="showText" name="textarea"></textarea>
+            <button id="copiar">Copiar</button>
+        </div>
+
+        <div id="nonfound">
+            <img src="imagenes/Mugneco.png">
+            <p>Ningún mensaje fue encontrado</p>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        
+        <div class="logicButton">
+            <p><img src="imagenes/Vector.png"> Solo letras minúsculas y sin acentos</p>
+            <button id="encriptar">Encriptar</button>
+            <button id="desencriptar">Desencriptar</button>
+        </div>
+
+    </main>
+
+    <script src="logica.js"></script>
+
+</body>
+
+</html>
+
+
